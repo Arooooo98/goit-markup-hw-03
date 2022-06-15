@@ -5,10 +5,11 @@
 header {
   border-bottom-style: solid;
   color: #ececec;
+  width: 1200px;
+  display: inline-flex;
 }
 
 #navigation ul li {
-  display: inline;
 }
 
 a {
@@ -25,6 +26,17 @@ button {
   cursor: pointer;
 }
 
+.container {
+  width: 1200px;
+  padding: 5px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.biznes {
+  display: inline-flex;
+  justify-content: center;
+}
 .ulbutton {
   list-style-type: none;
   text-decoration: none;
@@ -45,6 +57,14 @@ ul {
 
 #navigation a:hover {
   color: #2196f3;
+}
+
+.agency {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  letter-spacing: 0.02em;
 }
 
 a {
@@ -100,11 +120,12 @@ a {
   color: #2196f3;
 }
 
-.container {
+.containers {
 }
 
 .mcontainer {
   background: #2f303a;
+  width: 1200px;
 }
 
 .efekt h1 {
@@ -131,11 +152,20 @@ a {
   background: #ffffff;
 }
 
+.lor {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+
 .tabc {
 }
 
 .lorem {
   color: #757575;
+}
+
+.czym {
+  padding-bottom: 94px;
 }
 
 .boxczym {
@@ -156,6 +186,7 @@ a {
 
 .teamc {
   background: #f5f4fa;
+  padding-top: 94px;
 }
 
 .teamc h2 {
@@ -168,6 +199,25 @@ a {
 }
 
 .teambox {
+  display: inline-flex;
+  justify-content: center;
+}
+
+.cards {
+  display: inline-flex;
+  /* Make a flex container multiline */
+  gap: 10px;
+  padding: 0;
+  list-style: none;
+}
+
+.item {
+  /*  Set the width of the elements  */
+  padding: 10px;
+  background-color: #fff;
+  border-radius: 0px 0px 4px 4px;
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+    0px 2px 1px rgba(0, 0, 0, 0.2);
 }
 
 .john1box {
@@ -395,6 +445,11 @@ p {
 
 footer {
   background-color: #2f303a;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  display: flex;
+  flex-direction: column;
+  padding-left: 100px;
 }
 
 .footercp {
@@ -413,22 +468,6 @@ footer {
 }
 
 .foot a {
-}
-
-address {
-}
-
-address a {
-  font-family: "Roboto";
-  font-style: normal;
-  font-weight: 400;
-  font-size: 14px;
-  line-height: 24px;
-  /* or 171% */
-
-  letter-spacing: 0.03em;
-
-  color: rgba(255, 255, 255, 0.6);
 }
 
 .city {
