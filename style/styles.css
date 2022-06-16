@@ -7,6 +7,7 @@ header {
   color: #ececec;
   width: 1200px;
   display: inline-flex;
+  justify-content: space-around;
 }
 
 #navigation ul li {
@@ -14,6 +15,10 @@ header {
 
 a {
   color: black;
+}
+
+* {
+  box-sizing: border-box;
 }
 
 body {
@@ -40,6 +45,8 @@ button {
 .ulbutton {
   list-style-type: none;
   text-decoration: none;
+  justify-content: center;
+  display: inline-flex;
 }
 
 ul li {
@@ -87,6 +94,8 @@ a {
   font-size: 14px;
   line-height: 16px;
   letter-spacing: 0.02em;
+  display: flex;
+  align-items: center;
 }
 
 .info a {
@@ -121,15 +130,19 @@ a {
 }
 
 .containers {
+  padding-top: 94px;
+  display: flex;
+  justify-content: center;
 }
 
 .mcontainer {
   background: #2f303a;
   width: 1200px;
+  display: inline;
+  text-align: center;
 }
 
 .efekt h1 {
-  text-align: center;
   letter-spacing: 0.06em;
   text-transform: uppercase;
   font-style: normal;
@@ -142,6 +155,10 @@ a {
 .buttoni {
   background: #2196f3;
   color: white;
+}
+
+figure {
+  margin: 0;
 }
 
 .pho p {
@@ -199,7 +216,7 @@ a {
 }
 
 .teambox {
-  display: inline-flex;
+  display: flex;
   justify-content: center;
 }
 
@@ -213,7 +230,7 @@ a {
 
 .item {
   /*  Set the width of the elements  */
-  padding: 10px;
+  padding: 0px;
   background-color: #fff;
   border-radius: 0px 0px 4px 4px;
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
@@ -284,6 +301,21 @@ button {
 button:hover {
 }
 
+.cardsp {
+  display: flex;
+  /* Make a flex container multiline */
+  flex-wrap: wrap;
+  padding: 0;
+  list-style: none;
+}
+
+.itemp {
+  /*  Set the width of the elements  */
+  padding: 10px;
+  background-color: #fff;
+  border-radius: 0px 0px 4px 4px;
+  flex-basis: calc((100% - 20px) / 3);
+}
 .one {
 }
 
@@ -447,8 +479,6 @@ footer {
   background-color: #2f303a;
   padding-top: 40px;
   padding-bottom: 40px;
-  display: flex;
-  flex-direction: column;
   padding-left: 100px;
 }
 
@@ -478,8 +508,10 @@ footer {
   line-height: 24px;
   /* or 171% */
   letter-spacing: 0.03em;
-
   color: #ffffff;
+  text-align: left;
+  margin-top: 20px;
+  margin-bottom: 0px;
 }
 
 .city2 {
@@ -495,6 +527,10 @@ footer {
   color: #ffffff;
 }
 
+address {
+  display: flex;
+  flex-direction: column;
+}
 address a {
   font-family: "Roboto";
   font-style: normal;
