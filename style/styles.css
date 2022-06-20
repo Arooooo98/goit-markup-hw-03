@@ -6,7 +6,7 @@ header {
   border-bottom-style: solid;
   color: #ececec;
   width: 1200px;
-  display: inline-flex;
+  display: flex;
   justify-content: space-around;
 }
 
@@ -27,26 +27,36 @@ body {
   color: black;
 }
 
+section {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
 button {
   cursor: pointer;
 }
 
 .container {
   width: 1200px;
-  padding: 5px;
-  margin-left: auto;
-  margin-right: auto;
+  margin: 0 auto;
 }
 
+.container h2 {
+  justify-content: center;
+}
+
+.container {
+  text-align: center;
+  justify-content: center;
+}
 .biznes {
-  display: inline-flex;
+  display: flex;
   justify-content: center;
 }
 .ulbutton {
   list-style-type: none;
   text-decoration: none;
   justify-content: center;
-  display: inline-flex;
+  display: flex;
 }
 
 ul li {
@@ -60,6 +70,7 @@ ul {
   font-size: 14px;
   line-height: 16px;
   letter-spacing: 0.02em;
+  padding-left: 0px;
 }
 
 #navigation a:hover {
@@ -174,6 +185,19 @@ figure {
   padding-bottom: 94px;
 }
 
+.lor ul {
+  display: flex;
+}
+
+.lor p {
+  color: #757575;
+  text-align: left;
+  font-size: 14px;
+}
+
+.lor h3 {
+  text-align: left;
+}
 .tabc {
 }
 
@@ -192,15 +216,6 @@ figure {
 .boxczym h2 {
 }
 
-.img1 {
-}
-
-.img2 {
-}
-
-.img3 {
-}
-
 .teamc {
   background: #f5f4fa;
   padding-top: 94px;
@@ -215,13 +230,26 @@ figure {
   letter-spacing: 0.03em;
 }
 
+.teamc p {
+  color: #757575;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  /* identical to box height */
+
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+
 .teambox {
   display: flex;
   justify-content: center;
 }
 
 .cards {
-  display: inline-flex;
+  display: flex;
   /* Make a flex container multiline */
   gap: 10px;
   padding: 0;
@@ -316,6 +344,21 @@ button:hover {
   background-color: #fff;
   border-radius: 0px 0px 4px 4px;
   flex-basis: calc((100% - 20px) / 3);
+}
+
+.itemp h3 {
+  text-align: left;
+  padding-left: 15px;
+}
+
+.itemp p {
+  color: #757575;
+  text-align: left;
+  padding-left: 15px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
 }
 .one {
 }
