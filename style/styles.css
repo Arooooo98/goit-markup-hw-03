@@ -250,6 +250,7 @@ figure {
 
 .cards {
   display: flex;
+  justify-content: center;
   /* Make a flex container multiline */
   gap: 10px;
   padding: 0;
