@@ -1,5 +1,6 @@
 #header {
   background: #ffffff;
+  margin: 0px auto;
 }
 
 header {
@@ -7,7 +8,7 @@ header {
   color: #ececec;
   width: 1200px;
   display: flex;
-  justify-content: space-evenly;
+  justify-content: space-between;
   align-items: center;
   height: 80px;
 }
@@ -45,7 +46,11 @@ button {
   margin-right: auto;
 }
 
-
+.head {
+display: flex;
+justify-content: space-between;
+margin: 0px auto;
+}
 
 .container {
   width: 1200px;
@@ -53,17 +58,15 @@ button {
 }
 
 .container h2 {
+  display: flex;
   justify-content: center;
 }
 
-.container {
-  text-align: center;
-  justify-content: center;
-}
 .biznes {
   display: flex;
   justify-content: center;
 }
+
 .ulbutton {
   list-style-type: none;
   text-decoration: none;
@@ -160,7 +163,7 @@ a {
   justify-content: center;
 }
 
-.mcontainer {
+.biznes1 {
   background: #2f303a;
   width: 1200px;
   display: flex;
@@ -168,6 +171,7 @@ a {
   text-align: center;
   height: 600px;
   padding-top: 0px;
+  margin: 0 auto;
 }
 
 .efekt h1 {
@@ -249,6 +253,10 @@ figure {
   letter-spacing: 0.03em;
 }
 
+.teamc h3 {
+  text-align: center;
+}
+
 .teamc p {
   color: #757575;
   font-family: "Roboto";
@@ -269,7 +277,7 @@ figure {
 
 .cards {
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
   /* Make a flex container multiline */
   gap: 10px;
   padding: 0;
