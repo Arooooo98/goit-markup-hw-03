@@ -6,7 +6,6 @@
 header {
   border-bottom-style: solid;
   color: #ececec;
-  width: 1200px;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -165,7 +164,6 @@ a {
 
 .biznes1 {
   background: #2f303a;
-  width: 1200px;
   display: flex;
   align-items: center;
   text-align: center;
@@ -559,7 +557,6 @@ footer {
   background-color: #2f303a;
   padding-top: 40px;
   padding-bottom: 40px;
-  padding-left: 100px;
   height: 252px;
   display: flex;
   align-items: center;
